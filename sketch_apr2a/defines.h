@@ -1,3 +1,6 @@
+#ifndef DEFINES_H
+#define DEFINES_H
+
 // - Configuração dos analoicos Player 01
 #define VERT_PIN_P1 A2 //Cinza 
 #define HORZ_PIN_P1 A3 //Verde
@@ -39,3 +42,4 @@
 #define TOTAL_PIX_Y 8
 #define TOTAL_STICKS 6
 
+#endif // DEFINES_H
