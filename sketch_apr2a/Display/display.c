@@ -2,7 +2,7 @@
 
 void displayPontoReal(uint8_t coluna, uint8_t linha) {
   pontoreal = formatar_32x32_8x128(coluna, linha);
-  displayAux.setPoint(pontoreal.y, pontoreal.x, true);
+  displayCentral.setPoint(pontoreal.y, pontoreal.x, true);
 }
 
 void displayStick(struct Stick *stick) {
